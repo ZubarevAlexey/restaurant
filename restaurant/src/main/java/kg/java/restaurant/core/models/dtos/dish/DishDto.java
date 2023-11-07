@@ -11,6 +11,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder(toBuilder = true)
 public class DishDto {
+    private Long id;
     private String name;
     private Double coast;
     private CategoryDto category;
